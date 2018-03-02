@@ -1,16 +1,15 @@
 #include<stdio.h>
-#include<string.h>
 int main()
 {
-int i,n,temp;
-char a[10];
+int i,n,sum=0;
 printf("\nenter the number:);
-scanf("%s",a);
-n=strlen(a);
-temp=a[0];
-for(i=0;i<n;i++)
-{
-printf("\n%c"temp+a[i]);
-}
-return 0;
+scanf("%d",a);
+       while(n!=0)
+       {
+         i=n%10;
+         sum=sum+i;
+         n=n/10;
+       }
+       printf("\n%d",sum);         
+         return 0;
 }
