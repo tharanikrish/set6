@@ -2,7 +2,7 @@
 int main()
 {
 int a;
-printf(select a number from 1 to 10\n");
+printf("select a number from 1 to 10\n");
 scanf("%d",&a);
 switch(a)
 {
@@ -17,5 +17,6 @@ case 8:printf("eight");break;
 case 9:printf("nine");break;
 case 10:printf("ten");break;
 default:printf("enter values from 1 to 10");
+}
 return 0;
 }
