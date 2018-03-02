@@ -2,7 +2,7 @@
 int main()
 {
 int n,m,mul;
-printf("\nenter the two numbers:);
+printf("\nenter the two numbers:");
 scanf("%d%d",&a,&b);
 mul=n*m;
 if(mul%2==0)
