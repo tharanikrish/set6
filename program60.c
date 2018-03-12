@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int n,t1=0,t2=1;i,temp;
+int n,t1=0,t2=1,i,temp;
 printf("\nenter the number:");
 scanf("%d",&n);
 printf("\nfibonacci series\n");
