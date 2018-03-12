@@ -4,14 +4,14 @@ int main()
 char a[10];
 int i,flag1=0,flag2=0;
 printf("\nenter the string:");
-scanf("%s",&a);
+scanf("%s",a);
 for(i=0;a[i]!='\0';++i)
 {
 if(((a[i]>=65)&&(a[i]<=90))||((a[i]>=97)&&(a[i]<=122)))
 {
 flag1=1;
 }
-else if(a[i]>=48)&&(a[i]<=57))
+else if((a[i]>=48)&&(a[i]<=57))
 {
 flag2=1;
 }
