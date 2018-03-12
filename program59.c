@@ -12,8 +12,9 @@ for(i=0;i<10;i++)
 {
 if(a[i]>temp)
 {
+  temp=a[i];
+}
+}  
 printf("\n%d",a[i]);
-}
-}
 return 0;
 }
